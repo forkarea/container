@@ -1,0 +1,22 @@
+{
+  "name": "albert221/container",
+  "description": "Simple dependency container",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Albert Wolszon",
+      "homepage": "http://albert221.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Albert221\\Container\\": "src/"
+    }
+  }
+}
